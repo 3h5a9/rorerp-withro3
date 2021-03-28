@@ -130,15 +130,12 @@ Offcanvas Styling
  .sidebar {
   position: fixed;
   top: 0;
-  /* rtl:raw:
-  right: 0;
-  */
   bottom: 0;
-  /* rtl:remove */
   left: 0;
-  z-index: 100; /* Behind the navbar */
-  padding: 0 0 0; /* Height of navbar */
+  z-index: 100;
+  padding: 0 0 0;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  .nav-item{font-size: .75rem;}
 }
 
 @media (max-width: 767.98px) {
@@ -186,8 +183,9 @@ Offcanvas Styling
 
 
 .navbar .navbar-toggler {
-  top: .25rem;
+  top: .85rem;
   right: 1rem;
+  left: 1rem;
 }
 
 .navbar .form-control {
@@ -217,7 +215,7 @@ Offcanvas Styling
 @media (max-width:767.98px) {
   .navbar-brand{
     position: relative;
-    left: 25%;
+    left: 30%;
   }
   .navbar-toggler{
     left: 0;
